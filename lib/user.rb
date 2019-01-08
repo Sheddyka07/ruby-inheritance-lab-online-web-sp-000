@@ -1,18 +1,11 @@
 class User
  
-  attr_accessor :wheel_size, :wheel_number
+  attr_accessor :first_name, :last_name
  
-  def initialize(wheel_size, wheel_number)
-    @wheel_size = wheel_size
-    @wheel_number = wheel_number
+  def initialize(first_name, last_name)
+    @first_name = first_name
+    @last_name = last_name
   end
- 
-  def go
-    "vrrrrrrrooom!"
-  end
- 
-  def fill_up_tank
-    "filling up!"
-  end
+
  
 end
